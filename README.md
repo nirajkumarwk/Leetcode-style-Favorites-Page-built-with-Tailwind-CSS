@@ -1,8 +1,41 @@
-# React + Vite
+# Leetcode-Style Favorites Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive favorites page built with Tailwind CSS featuring a collapsible sidebar to filter favorite questions by difficulty. It also includes a reset button and displays associated tags for each question. **Recoil** is used for state management.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Responsive Sidebar:** Collapsible for easy navigation
+- **Difficulty Filter:** Filter questions by difficulty
+- **Reset Button:** Clear all filters with one click
+- **Tags Display:** View tags for each question
+- **State Management:** Powered by Recoil
+
+## Installation
+
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/nirajkumarwk/Leetcode-style-Favorites-Page-built-with-Tailwind-CSS.git
+   cd Leetcode-style-Favorites-Page-built-with-Tailwind-CSS
+   ```
+
+2. **Install Dependencies:**
+   ```bash
+   npm install
+   ```
+
+3. **Run the Project:**
+   ```bash
+   npm run dev
+   ```
+
+Open your browser at `http://localhost:3000`.
+
+## Technologies
+
+- Tailwind CSS
+- Recoil (State Management)
+- HTML, CSS, JavaScript
+
+## License
+
+This project is open source under the MIT License.
